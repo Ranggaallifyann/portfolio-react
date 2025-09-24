@@ -44,7 +44,7 @@ const personalInfo = {
         { icon: <GithubIcon className="w-4 h-4" />, text: "github.com/ranggaallifyann", href: "https://github.com/ranggaallifyann" }
     ],
     location: "Curug - Kabupaten Tangerang, Indonesia",
-    bio: "Graduate of Information Systems, Universitas Mercu Buana (GPA 3.43) with strong expertise in IT Support, System Design, Desktop Application Development, Data Analysis, Business Intelligence, and AI. Experienced in developing an ERP application (REMAS) that improved business efficiency by 40%. Skilled in C#, Figma, SQL, Python, and data visualization tools. Recognized for strong leadership, adaptability, and problem-solving skills, with a high commitment to delivering innovative solutions."
+    bio: "Graduate of Information Systems, Universitas Mercu Buana (GPA 3.48) with strong expertise in IT Support, System Design, Desktop Application Development, Data Analysis, Business Intelligence, and AI. Experienced in developing an ERP application (REMAS) that improved business efficiency by 40%. Skilled in C#, Figma, SQL, Python, and data visualization tools. Recognized for strong leadership, adaptability, and problem-solving skills, with a high commitment to delivering innovative solutions."
 };
 
 const education = {
@@ -163,20 +163,78 @@ const projects = [
 ];
 
 const hardSkills = [
-    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
-    { name: "C#", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
-    { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" },
-    { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" },
-    { name: "Power BI", logo: "/assets/logo-power-bi.png" },
-    { name: "Looker Studio", logo: "/assets/logo-looker-studio.png" },
-    { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
-    { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" },
-    { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" },
-    { name: "Jupyter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" },
-    { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
-    { name: "Visual Studio", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" },
-    { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" },
+  { 
+    name: "Microsoft Word", 
+    logo: "https://img.icons8.com/color/48/000000/word.png", 
+    link: "https://www.microsoft.com/en-us/microsoft-365/word" 
+  },
+  { 
+    name: "Microsoft Excel", 
+    logo: "https://img.icons8.com/color/48/000000/ms-excel.png", 
+    link: "https://www.microsoft.com/en-us/microsoft-365/excel" 
+  },
+  { 
+    name: "Microsoft PowerPoint", 
+    logo: "https://img.icons8.com/color/48/000000/powerpoint.png", 
+    link: "https://www.microsoft.com/en-us/microsoft-365/powerpoint" 
+  },
+  { 
+    name: "SQL (MySQL, PostgreSQL)", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg", 
+    link: "https://www.mysql.com/" 
+  },
+  { 
+    name: "Python (Pandas, NumPy, Scikit-learn & ML/AI)", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", 
+    link: "https://www.python.org/" 
+  },
+  { 
+    name: "Power BI", 
+    logo: "https://img.icons8.com/color/48/000000/power-bi.png", 
+    link: "https://powerbi.microsoft.com/" 
+  },
+  { 
+    name: "Looker Studio", 
+    logo: "https://img.icons8.com/color/48/000000/google-data-studio.png", 
+    link: "https://lookerstudio.google.com/" 
+  },
+  { 
+    name: "Google Colaboratory", 
+    logo: "https://img.icons8.com/color/48/000000/google-colab.png", 
+    link: "https://colab.research.google.com/" 
+  },
+  { 
+    name: "Visual Studio", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg", 
+    link: "https://visualstudio.microsoft.com/" 
+  },
+  { 
+    name: "VS Code", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg", 
+    link: "https://code.visualstudio.com/" 
+  },
+  { 
+    name: "Matplotlib & Seaborn (Data Visualization)", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", 
+    link: "https://matplotlib.org/ https://seaborn.pydata.org/" 
+  },
+  { 
+    name: "ERP & System Development (C#)", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg", 
+    link: "https://dotnet.microsoft.com/en-us/apps/desktop" 
+  },
+  { 
+    name: "Figma", 
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg", 
+    link: "https://www.figma.com/" 
+  },
+  { 
+    name: "Microsoft Visio", 
+    logo: "https://img.icons8.com/color/48/000000/visio.png", 
+    link: "https://www.microsoft.com/en-us/microsoft-365/visio" 
+  }
 ];
+
 
 const softSkills = [
     "Creative & Critical Thinking", "Problem Solving", "Teamwork & Collaboration", 
@@ -189,6 +247,18 @@ const certifications = [
     { logoUrl: "/assets/sertifikat-dsa.jpg", name: "Data Structures & Algorithms", issuer: "Udemy", year: "2025", url: "#" },
     { logoUrl: "/assets/sertifikat-forage-ba.jpg", name: "Data Science Job Simulation", issuer: "Forage", year: "2025", url: "#" },
     { logoUrl: "/assets/sertifikat-aws.jpg", name: "AWS Cloud Practitioner", issuer: "Dicoding", year: "2024", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-business-analyst.jpg", name: "Business Analyst Certification", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-data-science.jpg", name: "Data Science Mastery", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-dsa.jpg", name: "Data Structures & Algorithms", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-forage-ba.jpg", name: "Data Science Job Simulation", issuer: "Forage", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-aws.jpg", name: "AWS Cloud Practitioner", issuer: "Dicoding", year: "2024", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
     { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
 ];
 
@@ -213,13 +283,14 @@ const Section = ({ title, children, id }) => (
 const ExperienceCard = ({ logoUrl, company, role, period, tasks, certificateUrl }) => (
     <div className="flex gap-6 mb-8 p-4 border border-gray-200 rounded-xl transition-all duration-300 hover:shadow-lg hover:border-black">
         <div className="hidden sm:block">
-            <img src={logoUrl} alt={`${company} logo`} className="w-16 h-16 rounded-lg object-cover bg-gray-100" />
+            {/* --- UBAH BARIS INI --- */}
+            <img src={logoUrl} alt={`${company} logo`} className="w-16 h-16 rounded-lg object-contain" />
         </div>
         <div className="flex-1">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
                 <div>
                     <h3 className="text-xl font-bold">{role}</h3>
-                    <p className="text-gray-700">{company}</p>
+                    <p className="">{company}</p>
                 </div>
                 <p className="text-sm text-gray-500 mt-1 sm:mt-0">{period}</p>
             </div>
@@ -308,17 +379,17 @@ export default function App() {
 
                 {/* --- ABOUT ME & EDUCATION --- */}
                  <section className="mb-16 grid md:grid-cols-5 gap-8">
-                     <div className="md:col-span-3">
-                         <h2 className="text-2xl font-bold mb-4">About Me</h2>
-                         <p className="text-gray-600">{personalInfo.bio}</p>
-                     </div>
-                     <div className="md:col-span-2 bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h2 className="text-2xl font-bold mb-4">Education</h2>
-                        <h3 className="font-bold">{education.university}</h3>
-                        <p className="text-sm text-gray-500">{education.period}</p>
-                        <p className="text-gray-700 mt-1">{education.degree}</p>
-                        <p className="text-sm text-gray-600 mt-2 italic"><strong>Thesis:</strong> {education.thesis}</p>
-                     </div>
+                      <div className="md:col-span-3">
+                          <h2 className="text-2xl font-bold mb-4">About Me</h2>
+                          <p className="text-gray-600">{personalInfo.bio}</p>
+                      </div>
+                      <div className="md:col-span-2 bg-gray-50 p-6 rounded-xl border border-gray-200">
+                          <h2 className="text-2xl font-bold mb-4">Education</h2>
+                          <h3 className="font-bold">{education.university}</h3>
+                          <p className="text-sm text-gray-500">{education.period}</p>
+                          <p className="text-gray-700 mt-1">{education.degree}</p>
+                          <p className="text-sm text-gray-600 mt-2 italic"><strong>Thesis:</strong> {education.thesis}</p>
+                      </div>
                  </section>
 
                 {/* --- WORK EXPERIENCE --- */}
@@ -389,21 +460,20 @@ export default function App() {
                 </Section>
 
                 <footer className="text-center text-sm text-gray-400 mt-20 py-6 border-t border-gray-200">
-                    <p>&copy; {new Date().getFullYear()} Rangga Allifyan Syahputra. Designed & Built with React.</p>
+                    <p>&copy; {new Date().getFullYear()} Rangga Allifyan Syahputra. Bismillah Offering.</p>
                 </footer>
 
                  {/* --- This is needed for the marquee animation --- */}
                 <style>{`
-                    @keyframes marquee {
-                      0% { transform: translateX(0%); }
-                      100% { transform: translateX(-50%); }
-                    }
-                    .animate-marquee {
-                      animation: marquee 30s linear infinite;
-                    }
+                      @keyframes marquee {
+                        0% { transform: translateX(0%); }
+                        100% { transform: translateX(-50%); }
+                      }
+                      .animate-marquee {
+                        animation: marquee 30s linear infinite;
+                      }
                 `}</style>
             </div>
         </div>
     );
 }
-
