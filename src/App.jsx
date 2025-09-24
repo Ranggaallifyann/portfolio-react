@@ -36,7 +36,7 @@ const CertificateIcon = ({ className }) => (
 
 const personalInfo = {
     name: "RANGGA ALLIFYAN SYAHPUTRA",
-    profilePictureUrl: "https://placehold.co/150x150/000000/FFFFFF?text=Rangga",
+    profilePictureUrl: "/assets/foto-profil.jpg",
     contacts: [
         { icon: <PhoneIcon className="w-4 h-4" />, text: "085880002910", href: "tel:085880002910" },
         { icon: <MailIcon className="w-4 h-4" />, text: "ranggaallifss@gmail.com", href: "mailto:ranggaallifss@gmail.com" },
@@ -56,7 +56,7 @@ const education = {
 
 const workExperiences = [
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=UMB",
+        logoUrl: "/assets/logo-umb.png",
         company: "Universitas Mercu Buana",
         role: "Undergraduate Thesis Project",
         period: "Mar 2025 - Aug 2025",
@@ -70,7 +70,7 @@ const workExperiences = [
         certificateUrl: "#"
     },
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=BA",
+        logoUrl: "/assets/logo-british-airways.png",
         company: "British Airways (Forage)",
         role: "Data Science Virtual Intern",
         period: "Jan 2025 - Mar 2025",
@@ -84,7 +84,7 @@ const workExperiences = [
         certificateUrl: "#"
     },
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=HTAI",
+        logoUrl: "/assets/logo-high-tech.png",
         company: "PT High Tech Ancillaries Indonesia",
         role: "IT Support (MSIB 6)",
         period: "Feb 2024 - Jul 2024",
@@ -97,7 +97,7 @@ const workExperiences = [
         certificateUrl: "#"
     },
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=ARSI",
+        logoUrl: "/assets/logo-arai-rubber.png",
         company: "PT Arai Rubber Seal Indonesia",
         role: "Information Technology Staff (MSIB 6)",
         period: "Feb 2024 - Jul 2024",
@@ -113,7 +113,7 @@ const workExperiences = [
 
 const orgExperiences = [
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=HIMSISFO",
+        logoUrl: "/assets/logo-himsisfo.png",
         company: "HIMSISFO FAKULTAS ILMU KOMPUTER UMB",
         role: "Daily Management Board (BPH) – Treasurer",
         period: "Jan 2023 - Jul 2023",
@@ -125,7 +125,7 @@ const orgExperiences = [
         certificateUrl: "#"
     },
     {
-        logoUrl: "https://placehold.co/100x100/000000/FFFFFF?text=HIMSISFO",
+        logoUrl: "/assets/logo-himsisfo.png",
         company: "HIMSISFO FAKULTAS ILMU KOMPUTER UMB",
         role: "Staff of Infrastructure and Facilities Division",
         period: "Present",
@@ -140,21 +140,21 @@ const orgExperiences = [
 
 const projects = [
     {
-        imageUrl: "https://placehold.co/600x400/000000/FFFFFF?text=ERP+Project",
+        imageUrl: "/assets/proyek-erp-remas.jpg",
         title: "Desktop ERP Application (REMAS)",
         description: "Developed a comprehensive ERP system for PT Arai Rubber Seal Indonesia, integrating multiple departments including Sales, Production, and Finance. Built with C# and Visual Studio.",
         githubUrl: "#",
         resultUrl: "#"
     },
     {
-        imageUrl: "https://placehold.co/600x400/000000/FFFFFF?text=EQ+Prediction",
+        imageUrl: "/assets/proyek-prediksi-gempa.jpg",
         title: "Earthquake Prediction Model",
         description: "A machine learning model to predict earthquake magnitudes in Indonesia using Random Forest and Neural Networks. The project involved heavy data preprocessing and spatial analysis.",
         githubUrl: "#",
         resultUrl: "#"
     },
     {
-        imageUrl: "https://placehold.co/600x400/000000/FFFFFF?text=BA+Analysis",
+        imageUrl: "/assets/proyek-analisis-ba.jpg",
         title: "British Airways Customer Review Analysis",
         description: "A data science project involving web scraping and predictive modeling to derive insights from customer reviews and improve overall customer experience and business strategies.",
         githubUrl: "#",
@@ -167,8 +167,8 @@ const hardSkills = [
     { name: "C#", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
     { name: "SQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" },
     { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" },
-    { name: "Power BI", logo: "https://placehold.co/100x100/FFFFFF/000000?text=PBI" },
-    { name: "Looker Studio", logo: "https://placehold.co/100x100/FFFFFF/000000?text=LKR" },
+    { name: "Power BI", logo: "/assets/logo-power-bi.png" },
+    { name: "Looker Studio", logo: "/assets/logo-looker-studio.png" },
     { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
     { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" },
     { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" },
@@ -184,12 +184,12 @@ const softSkills = [
 ];
 
 const certifications = [
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+1", name: "Business Analyst Certification", issuer: "Udemy", year: "2025", url: "#" },
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+2", name: "Data Science Mastery", issuer: "Udemy", year: "2025", url: "#" },
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+3", name: "Data Structures & Algorithms", issuer: "Udemy", year: "2025", url: "#" },
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+4", name: "Data Science Job Simulation", issuer: "Forage", year: "2025", url: "#" },
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+5", name: "AWS Cloud Practitioner", issuer: "Dicoding", year: "2024", url: "#" },
-    { logoUrl: "https://placehold.co/600x400/000000/FFFFFF?text=Certificate+6", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
+    { logoUrl: "/assets/sertifikat-business-analyst.jpg", name: "Business Analyst Certification", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-data-science.jpg", name: "Data Science Mastery", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-dsa.jpg", name: "Data Structures & Algorithms", issuer: "Udemy", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-forage-ba.jpg", name: "Data Science Job Simulation", issuer: "Forage", year: "2025", url: "#" },
+    { logoUrl: "/assets/sertifikat-aws.jpg", name: "AWS Cloud Practitioner", issuer: "Dicoding", year: "2024", url: "#" },
+    { logoUrl: "/assets/sertifikat-oracle-sql.jpg", name: "Database Design & SQL", issuer: "Oracle", year: "2023", url: "#" },
 ];
 
 const quote = {
