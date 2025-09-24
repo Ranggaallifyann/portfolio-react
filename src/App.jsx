@@ -283,11 +283,11 @@ export default function App() {
             <div className="max-w-7xl w-full mx-auto bg-white rounded-2xl shadow-xl border border-gray-200 p-6 sm:p-10 md:p-16">
 
                 {/* --- HEADER / HERO SECTION --- */}
-                <header className="flex flex-col md:flex-row items-center justify-between mb-16">
+                <header className="flex flex-col md:flex-row items-center justify-center md:gap-10 mb-16">
                      <img 
                         src={personalInfo.profilePictureUrl} 
                         alt="Rangga Allifyan Syahputra" 
-                        className="w-36 h-36 rounded-full object-cover border-4 border-white shadow-lg mb-6 md:mb-0 md:mr-8"
+                        className="w-36 h-36 rounded-full object-cover border-4 border-white shadow-lg mb-6 md:mb-0"
                     />
                     <div className="text-center md:text-left">
                         <h1 className="text-4xl md:text-5xl font-extrabold mb-2">{personalInfo.name}</h1>
